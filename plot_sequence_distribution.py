@@ -7,7 +7,7 @@ import matplotlib.ticker as ticker
 from collections import Counter
 
 # Define directories
-GENOMES_READS_DIR = "genomes_short_reads"
+GENOMES_READS_DIR = "genomes_sequence_reads"
 
 def read_lengths_generator():
     """Yield read lengths one by one from all FASTA files."""
@@ -75,7 +75,7 @@ def plot_read_length_distribution():
              verticalalignment='top', horizontalalignment='right',
              bbox=dict(facecolor='white', alpha=0.8, edgecolor='none'))
 
-    output_plot = "short_read_distribution.png"
+    output_plot = "sequence_read_distribution.png"
     plt.tight_layout()
     plt.savefig(output_plot, dpi=600)
     print(f"Plot saved as {output_plot}")
