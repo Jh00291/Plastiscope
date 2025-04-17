@@ -84,7 +84,7 @@ nohup python split_genomes.py >> split_reads.log 2>&1 &
 - Converts genomes to random-length DNA reads (60–300bp)
 
 **Output:**  
-`genomes_short_reads/{GENOME_NAME}/*.fasta`
+`genomes_sequence_reads/{GENOME_NAME}/*.fasta`
 
 ---
 
@@ -96,7 +96,7 @@ nohup python split_genomes.py >> split_reads.log 2>&1 &
 python plot_sequence_distribution.py
 
 **Output:**  
-`short_read_distribution.png`
+`sequence_read_distribution.png`
 
 **Purpose:**  
 - Plots histogram of read lengths across genomes
