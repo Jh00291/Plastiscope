@@ -13,7 +13,7 @@ from tqdm import tqdm
 
 # Constants
 GENOMES_DIR = "genomes"
-OUTPUT_DIR = "genomes_short_reads"
+OUTPUT_DIR = "genomes_sequence_reads"
 MIN_LEN = 60
 MAX_LEN = 300
 MEAN_LEN = 136
