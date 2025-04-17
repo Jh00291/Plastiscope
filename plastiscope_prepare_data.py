@@ -28,7 +28,7 @@ torch.cuda.manual_seed_all(SEED)
 os.environ["PYTHONHASHSEED"] = str(SEED)
 
 # === Paths ===
-BASE_DIR = Path("./genomes_short_reads/")
+BASE_DIR = Path("./genomes_sequence_reads/")
 VOCAB_PATH = Path("models/ngs_vocab_k1_withspecial.npy")
 USED_GENOMES_FILE = Path("models/used_genomes.txt")
 TRAIN_CSV = Path("models/train_df.csv")
