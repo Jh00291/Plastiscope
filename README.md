@@ -28,7 +28,7 @@ I used conda activate conda-env
 Download pytorch 1.2 whl locally: https://download.pytorch.org/whl/cu100/torch/torch-1.2.0-cp36-cp36m-manylinux1_x86_64.whl
 
 Use scp to transfer local whl file to Ubuntu server:
-scp ~/Downloads/torch-1.2.0-cp36-cp36m-manylinux1_x86_64.whl jh00291@160.10.23.18:/home/jh00291/
+scp ~/Downloads/torch-1.2.0-cp36-cp36m-manylinux1_x86_64.whl jh00291@xxx.xx.xx.xx:/home/jh00291/
 
 Confirm whl file is in server
 
